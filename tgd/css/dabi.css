@@ -317,14 +317,14 @@ background: #fc9d9a;
 
 #article-list #article-list-category {
     border-top: 2px solid #fe4365;
-    background: #ffd9da;
+    background: #fc9d9a;
     border-bottom: 2px solid #fe4365;
 }
 
 #article-list #article-list-category > a {
     display: inline-block;
     padding: 10px 12px;
-    background: #ffd9da;
+    background: #fc9d9a;
     text-decoration: none;
     font-size: 12px;
     font-weight: normal;
@@ -353,7 +353,7 @@ background: #fc9d9a;
 
 .pagination>li>a,
 .pagination>li>span{
-border: 1px solid #fc9d9a;
+border: 1px solid #fe4365;
 }
 
 .pagination>.active>a,
@@ -363,20 +363,20 @@ border: 1px solid #fc9d9a;
 .pagination>.active>span:focus,
 .pagination>.active>span:hover {
   background-color: #ffd9da;
-  border-color: #ffd9da;
+  border-color: #fec8c9;
 }
 
 .pagination>.active>a,
 .pagination>.active>a:focus,
 .pagination>.active>a:hover{
-border: 1px solid #ffd9da;
+border: 1px solid #fe4365;
 }
 
 .pagination>li>a:focus,
 .pagination>li>a:hover,
 .pagination>li>span:focus,
 .pagination>li>span:hover {
-  color: #ffd9da;
+  color: #fec8c9;
 }
 
 .btn-primary{
@@ -385,7 +385,7 @@ border: 1px solid #fec8c9;
 }
 
 #article-list>.article-list-row.notice{
-background: #fec8c9;
+background: #ffd9da;
 }
 
 #article-reply-area #reply-real-area .reply > .reply-header,
