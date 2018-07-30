@@ -250,6 +250,7 @@ header #header-bar .fa {
 
 .img-rounded {
     border-radius: 28px;
+    border: 2px solid #fe4365;
 }
 
 .fa-user:before {	
