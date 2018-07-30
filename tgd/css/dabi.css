@@ -238,10 +238,18 @@ header #header-bar .fa {
 }
 
 #board-info #board-info-profile-img {
-    border-radius: 50%;
-    border: 3px solid #fe4365;
     width: 3.5em;
     height: auto;
+}
+
+
+.pull-right {
+    float: left!important;
+}
+
+
+.img-rounded {
+    border-radius: 28px;
 }
 
 .fa-user:before {	
