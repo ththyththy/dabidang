@@ -357,7 +357,7 @@ border: 1px solid #fe4365;
 }
 
 .pagination>li>a:hover {
-    animation: infinite AquaLinkBG 1.5s;
+animation: infinite AquaLinkBG 1.5s;
 }
 
 .pagination>.active>a,
