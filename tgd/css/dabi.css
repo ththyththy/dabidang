@@ -338,20 +338,8 @@ background: #fc9d9a;
     background: #ffd9da ;
 }
 
-@keyframes AquaLinkBG {
-    0% {
-        background-color: #ffd9da;
-    }
-    40% {
-        background-color: #fc9d9a;
-    }
-    100% {
-        background-color: #ffd9da;
-    }
-}
-
-
 .pagination>li>a,
+.pagination>li>a:hover{ animation: infinite AquaLinkBG 1.5s; }
 .pagination>li>span{
 border: 1px solid #fe4365;
 }
@@ -383,6 +371,12 @@ border: 1px solid #fe4365;
 background: #fec8c9;
 border: 1px solid #fec8c9;
 }
+.btn-primary:hover{
+animation: infinite AquaLinkBG 1.5s; }
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+  color: #fe4365;
+}
 
 #article-list>.article-list-row.notice{
 background: #ffd9da;
@@ -392,10 +386,18 @@ background: #ffd9da;
 #article-reply-area #reply-best-area .reply>.reply-header{
 background: #fec8c9;
 
-#article-list>.article-list-row>.item>.list-title>small.comment-count {
-  color: #fe4365;
+@keyframes AquaLinkBG {
+    0% {
+        background-color: #ffd9da;
+    }
+    40% {
+        background-color: #fc9d9a;
+    }
+    100% {
+        background-color: #ffd9da;
+    }
 }
-
+	
 #article-info>h2 {
   font-weight: bold;
 }
@@ -420,7 +422,7 @@ span.a-badge i.fa.fa-info-circle {
   color: #fc9d9a;
 }
 
-/* 발발발 */
+/* 하단 */
 
 #article-list>.article-list-row {
   border-right: none;
