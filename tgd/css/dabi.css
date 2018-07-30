@@ -348,10 +348,6 @@ border-radius: 100px
 border: 1px solid #fe4365;
 }
 
-.pagination>li>a:hover {
-animation: infinite AquaLinkBG 1.5s;
-}
-
 .pagination>.active>a,
 .pagination>.active>a:focus,
 .pagination>.active>a:hover,
@@ -369,6 +365,7 @@ border: 1px solid #fe4365;
 }
 
 .pagination>li>a:focus,
+.pagination>li>a:hover,
 .pagination>li>span:focus,
 .pagination>li>span:hover {
   color: #fec8c9;
@@ -386,18 +383,6 @@ background: #ffd9da;
 #article-reply-area #reply-best-area .reply>.reply-header{
 background: #fec8c9;
 
-@keyframes AquaLinkBG {
-    0% {
-        background-color: #ffd9da;
-    }
-    40% {
-        background-color: #fc9d9a;
-    }
-    100% {
-        background-color: #ffd9da;
-    }
-}
-	
 #article-info>h2 {
   font-weight: bold;
 }
@@ -436,4 +421,16 @@ border: 1px solid #fec8c9;
 }
 .btn-primary:hover{
 animation: infinite AquaLinkBG 2s;
+}
+
+@keyframes AquaLinkBG {
+    0% {
+        background-color: #ffd9da;
+    }
+    40% {
+        background-color: #fc9d9a;
+    }
+    100% {
+        background-color: #ffd9da;
+    }
 }
