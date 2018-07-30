@@ -427,23 +427,3 @@ a {
 span.a-badge i.fa.fa-info-circle {
   color: #fc9d9a;
 }
-
-/* 하단 */
-
-#article-list>.article-list-row {
-  border-right: none;
-}
-
-#article-list #article-list-menu {
-  box-sizing: border-box;
-  width: unset;
-  margin: 20px;
-}
-
-#article-list #boardSearchForm {
-  padding-bottom: 20px;
-  height: unset;
-}
-
-.btn-primary {
-  background: #ff7473 !important;
