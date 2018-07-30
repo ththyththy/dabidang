@@ -383,9 +383,6 @@ border: 1px solid #fe4365;
 background: #fec8c9;
 border: 1px solid #fec8c9;
 }
-.btn-primary:hover {
-    animation: infinite AquaLinkBG 2s;
-}
 
 #article-list>.article-list-row.notice{
 background: #ffd9da;
