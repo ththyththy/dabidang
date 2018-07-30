@@ -344,11 +344,13 @@ border-radius: 100px
 }
 
 .pagination>li>a,
-.pagination>li>span{
+.pagination>li>span {
 border: 1px solid #fe4365;
 }
 
-.pagination>li>a:hover{ animation: infinite AquaLinkBG 2s; }
+.pagination>li>a:hover {
+animation: infinite AquaLinkBG 2s;
+}
 
 .pagination>.active>a,
 .pagination>.active>a:focus,
@@ -362,7 +364,7 @@ border: 1px solid #fe4365;
 
 .pagination>.active>a,
 .pagination>.active>a:focus,
-.pagination>.active>a:hover{
+.pagination>.active>a:hover {
 border: 1px solid #fe4365;
 }
 
@@ -378,7 +380,8 @@ background: #fec8c9;
 border: 1px solid #fec8c9;
 }
 .btn-primary:hover{
-animation: infinite AquaLinkBG 2s; }
+animation: infinite AquaLinkBG 2s;
+}
 
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
   color: #fe4365;
