@@ -228,14 +228,26 @@ header #header-bar .fa {
     font-size: 24px;	
     vertical-align: top;	
     padding-bottom: 3px;	
-    border-bottom: 1px solid #fc9d9a;	
+    border-bottom: 1px solid #fe4365;	
 }	
 	
 #board-info h1>a {	
     text-decoration: none;	
     color: #ffffff;	
     font-weight: bold;	
-}	
+}
+
+#board-info #board-info-profile-img {
+    border-radius: 50%;
+    border: 3px solid #fe4365;
+    float: left !important;
+    position: absolute;
+    left: 5px;
+    top: -10px;
+    width: 66px;
+    height: 70px;
+    padding-left: 64px;
+}
 
 .fa-user:before {	
     content: "\f007";	
@@ -244,8 +256,11 @@ header #header-bar .fa {
 
 #board-info #viewers-area #viewers:before {	
     content: "불꽃단 ";	
+}		
+#board-info #viewers-area #viewers:after {	
+    content: "명 대기 중";	
 }	
-	
+
 #board-info #viewers-area {	
     font-size: 14px;	
     color: #ffffff;	
@@ -253,10 +268,6 @@ header #header-bar .fa {
     vertical-align: middle;	
     line-height: 18px;	
     display: inline-block;	
-}	
-	
-#board-info #viewers-area #viewers:after {	
-    content: "명 대기 중";	
 }	
 
 #board-info #board-info-bottom a {	
