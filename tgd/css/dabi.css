@@ -36,7 +36,7 @@ header .row>div:nth-child(1)>a{
 	background-repeat:no-repeat;
 	display: block;
 	height: 60px;
-	background-image: url(https://tgd.kr/assets/images/logo_new.png);
+	background-image: url(https://i.imgur.com/biCrQNx.png);
      -webkit-animation: bounce-in-right 2.2s both;	
 	             animation: bounce-in-right 2.2s both;
 }	
@@ -441,7 +441,7 @@ span.a-badge i.fa.fa-info-circle {
   color: #fc9d9a;
 }
 
-/* 하단 */
+/* 꼬리말 */
 
 #article-list>.article-list-row {
   border-right: none;
