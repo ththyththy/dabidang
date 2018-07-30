@@ -369,7 +369,6 @@ border: 1px solid #fe4365;
 }
 
 .pagination>li>a:focus,
-.pagination>li>a:hover,
 .pagination>li>span:focus,
 .pagination>li>span:hover {
   color: #fec8c9;
