@@ -348,7 +348,7 @@ border-radius: 100px
 border: 1px solid #fe4365;
 }
 
-.pagination>li>a:hover{ animation: infinite AquaLinkBG 1.5s; }
+.pagination>li>a:hover{ animation: infinite AquaLinkBG 2s; }
 
 .pagination>.active>a,
 .pagination>.active>a:focus,
@@ -378,7 +378,7 @@ background: #fec8c9;
 border: 1px solid #fec8c9;
 }
 .btn-primary:hover{
-animation: infinite AquaLinkBG 1.5s; }
+animation: infinite AquaLinkBG 2s; }
 
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
   color: #fe4365;
