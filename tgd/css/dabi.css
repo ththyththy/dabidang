@@ -240,13 +240,8 @@ header #header-bar .fa {
 #board-info #board-info-profile-img {
     border-radius: 50%;
     border: 3px solid #fe4365;
-    float: left !important;
-    position: absolute;
-    left: 5px;
-    top: -10px;
-    width: 66px;
-    height: 70px;
-    padding-left: 64px;
+    width: 3.5em;
+    height: auto;
 }
 
 .fa-user:before {	
