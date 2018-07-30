@@ -349,7 +349,7 @@ border: 1px solid #fe4365;
 }
 
 .pagination>li>a:hover {
-animation: infinite AquaLinkBG 2s;
+animation: infinite AquaLinkBG 1.5s;
 }
 
 .pagination>.active>a,
@@ -373,14 +373,6 @@ border: 1px solid #fe4365;
 .pagination>li>span:focus,
 .pagination>li>span:hover {
   color: #fec8c9;
-}
-
-.btn-primary{
-background: #fec8c9;
-border: 1px solid #fec8c9;
-}
-.btn-primary:hover{
-animation: infinite AquaLinkBG 2s;
 }
 
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
@@ -429,4 +421,20 @@ a {
 
 span.a-badge i.fa.fa-info-circle {
   color: #fc9d9a;
+}
+
+#article-list #article-list-menu > .btn.best {
+    margin-left: 1em;
+}
+
+#article-list #article-list-menu > .btn.write {
+    margin-right: 1em;
+}
+	
+.btn-primary{
+background: #fec8c9;
+border: 1px solid #fec8c9;
+}
+.btn-primary:hover{
+animation: infinite AquaLinkBG 2s;
 }
