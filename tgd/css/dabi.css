@@ -408,8 +408,16 @@ header #header-bar .fa {
 #article-list>.article-list-row.notice{
   background: #ffd9da;
 }
+#article-content-wrapper>.header {
+	border-top: 2px solid #fe4365;
+	background: #fc9d9a;
+}
 
-#article-reply-area #reply-real-area .reply > .reply-header,
+#article-content-wrapper>.footer {
+	background: #fc9d9a;
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header,
 #article-reply-area #reply-best-area .reply>.reply-header{
   background: #fec8c9;
 
