@@ -408,13 +408,13 @@ header #header-bar .fa {
 #article-list>.article-list-row.notice{
   background: #ffd9da;
 }
+
 #article-content-wrapper>.header {
 	border-top: 2px solid #fe4365;
 	background: #fc9d9a;
 }
-
 #article-content-wrapper>.footer {
-	background: #fc9d9a;
+	background: #fec8c9;
 }
 
 #article-reply-area #reply-real-area .reply>.reply-header,
