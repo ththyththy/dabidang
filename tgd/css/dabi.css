@@ -206,15 +206,6 @@ header #header-bar .fa {
   color: #ff7473;
 }
 
-/* 상단메뉴 색상 */
-
-#main .menu-wrapper>.header {	
-  background: #fc9d9a;	
-  color: #ffffff;	
-  adding: 0.45em 1.4em 0.45em 1em;	
-  font-weight: bold;	
-}	
-
 /* 상단 스트리머 정보창 */
 
 #board-info {	
@@ -315,6 +306,12 @@ header #header-bar .fa {
 
 #main .menu-wrapper>a>em {
   color: #ff7473;
+  text-decoration: none;
+  font-style: normal;
+  width: 24px;
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
 }
 
 /* 좌측메뉴 메뉴사이의 공간 색상 */
