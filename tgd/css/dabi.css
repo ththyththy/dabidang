@@ -9,6 +9,7 @@ html {
 body {
   background: transparent;
   font-family: 'NanumSquareRound',sans-serif;
+  font-size: 15px;
 }
 
 /* 전체 쉐도우 */
@@ -163,7 +164,7 @@ header #right-search-form>input[type='text'] {
   border: 3px solid #ff7473;
 }
 
-/* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
+/* 좌측 메뉴바  */
 
 #main .menu-wrapper>.header {
   background: #fc9d9a;
@@ -172,25 +173,34 @@ header #right-search-form>input[type='text'] {
   font-weight: bold;
 }
 
-.fa-navicon:before,
-.fa-reorder:before,
-.fa-bars:before {
-  color: white;
-}
-
-.fa-square:before {
-  color: #ff7473;
-}
-
-header #header-bar>.row,
-#main .menu-wrapper,
-#main #main-content>div.frame {
-  border-right: none;
-  border-bottom: none;
-}
-
 #main .menu-wrapper {
-  border: none;
+    border-right: 0px solid #ebeae8;
+    border-bottom: 0px solid #ebeae8;
+    margin-bottom: 0.8em;
+}
+
+#main .menu-wrapper>a>em {
+  color: #ff7473;
+  text-decoration: none;
+  font-style: normal;
+  width: 24px;
+  text-align: center;
+  display: inline-block;
+  font-weight: bold;
+}
+
+#main .menu-wrapper>a>i.fa.fa-square {
+    width: 24px;
+    display: inline-block;
+    text-align: center;
+    font-size: 0.1em;
+    color: #ff7473;
+    vertical-align: 0.2em;
+}
+
+#main .menu-wrapper .spacer {
+  background: #ff7473;
+  height: 0.15em;
 }
 
 /* 헤더 [광고]배경색 */
@@ -302,25 +312,6 @@ header #header-bar .fa {
   color: #efc839;	
 }	
 	
-/* 좌측메뉴 숏컷링크 글씨 색상 */
-
-#main .menu-wrapper>a>em {
-  color: #ff7473;
-  text-decoration: none;
-  font-style: normal;
-  width: 24px;
-  text-align: center;
-  display: inline-block;
-  font-weight: bold;
-}
-
-/* 좌측메뉴 메뉴사이의 공간 색상 */
-
-#main .menu-wrapper .spacer {
-  background: #ff7473;
-  height: 0.15em;
-}
-
 /* 게시글 관련부분 */
 
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span{
@@ -436,10 +427,6 @@ header #header-bar .fa {
 
 #article-reply-area>.header h5 {
   color: #fe4365;
-}
-
-#main .menu-wrapper>a {
-  padding: 0.5em 1.4em 0.5em 0.7em !important;
 }
 
 a {
