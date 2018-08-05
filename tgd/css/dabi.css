@@ -167,6 +167,9 @@ header #right-search-form>input[type='text'] {
 
 #main .menu-wrapper>.header {
   background: #fc9d9a;
+  color: #fff;
+  padding: 0.45em 1.4em 0.45em 1em;
+  font-weight: bold;
 }
 
 .fa-navicon:before,
