@@ -1,13 +1,14 @@
-@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.css);
+
+
 html {
   background: linear-gradient(to bottom, #fddcdc, #fddcdc);
   height: auto !important;
 }
 
 body {
-letter-spacing: -0.05em !important;
   background: transparent;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'NanumSquareRound',sans-serif;
 }
 
 /* 전체 쉐도우 */
