@@ -455,13 +455,13 @@ h3{
 }
 #article-reply-area>.header{
   width:848.66px;
-  background: #fe4365;
+  background: #fc9d9a;
   margin:0 auto;
   border-radius:6px 6px 0 0;
   padding:1em
 }
 #article-reply-area>.header h5 {
-  color: #fc9d9a;
+  color: #fe4365;
 }
 #lastc{
   color:#fff
