@@ -22,10 +22,14 @@ header #header-bar>.row,
 
 /* 로고밑 NAV bar */
 
-header #header-bar>.row {
-  border-top: 4px solid #fc9d9a;
-  border-right: none;
+header #header-bar>.row{
+  padding-top:.3em;
+  padding-bottom:.3em;
+  border-top:5px solid #fc9d9a;
   border-bottom: none;
+  border-right: none;
+  z-index:200;
+  border-radius:6px
 }
 
 /* 헤더 배너 */
@@ -212,7 +216,8 @@ header #right-search-form>input[type='text'] {
   height: 0.15em;
 }
 
-/* 헤더 [광고]배경색 */
+/* 헤더 */
+
 
 header #header-bar #header-top-notice strong.notice-badge {
   background: #fe4365;
@@ -331,11 +336,6 @@ header #header-bar .fa {
   padding:0 0 2em;
   background:#fff;
   border-radius:6px
-}
-
-#article-list>article-option-area {
-  background: #fddcdc
-  border: 0px solid #fe4365
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span{
