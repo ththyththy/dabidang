@@ -333,6 +333,11 @@ header #header-bar .fa {
   border-radius:6px
 }
 
+#article-list>article-option-area {
+  background: #fddcdc
+  border: 0px solid #fe4365
+}
+
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span{
   color: #fe4365;
 }
