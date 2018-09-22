@@ -376,6 +376,13 @@ header #header-bar .fa {
   background: #ffd9da ;
 }
 
+#article-info,
+#article-list #article-list-category>a.active,
+#article-list #article-list-category>a:hover,
+h3{
+  background: #fe4365
+}
+
 @keyframes AquaLinkBG {
     0% {
         background-color: #ffd9da;
@@ -448,7 +455,7 @@ header #header-bar .fa {
 }
 #article-reply-area>.header{
   width:848.66px;
-  background: #fddcdc;
+  background: #fe4365;
   margin:0 auto;
   border-radius:6px 6px 0 0;
   padding:1em
@@ -487,16 +494,39 @@ header #header-bar .fa {
   color: #fe4365;
 }
 
-#article-info>h2 {
-  font-weight: bold;
-}
-
 #article-info>h2>span.category {
   color: #fe4365 !important;
 }
 
-a {
-  color: #fe4365;
+#article-info{
+  width:848.66px;
+  margin:10px auto 0;
+  border-radius:6px 6px 0 0;
+  padding:.5em 1em
+}
+
+#article-info *{
+  color:#fff !important
+}
+
+#article-list>.article-list-row>.item>.list-header>strong,
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span,
+#article-list>.article-list-row>.item>.list-title>a,body{
+  color: #4C4646
+}
+
+#article-info>h2{
+  font-weight:700
+}
+
+#article-content-wrapper #article-content{
+  border:0;
+  background:#fff;
+  padding:1em 1.5em
+}
+
+#comment-write-form-area{
+  padding:0 1em 1em
 }
 
 span.a-badge i.fa.fa-info-circle {
