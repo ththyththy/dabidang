@@ -231,15 +231,15 @@ header #header-bar .fa {
 
 /* 상단 스트리머 정보창 */
 
-#board-info{
-  background-color: #fc9d9a;
-  display:flex;
-  border-right:0;
-  border-radius:6px;
-  overflow:inherit;
-  padding:0.5em 1em;
-  height:44px
-}
+ #board-info {	
+   background-color: #fc9d9a;	
+   width: 100%;	
+   height: 64px;	
+   overflow: hidden;	
+   line-height: 1;	
+   margin: 0 0 1em;	
+   padding: 1em;	
+ }	
 
 #board-info h1 {	
   background-color: #fc9d9a;	
