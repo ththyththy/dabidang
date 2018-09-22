@@ -2,9 +2,10 @@
 
 
 html {
-  background: linear-gradient(to bottom, #fddcdc, #fddcdc);
+  background: #fddcdc;
   height: auto !important;
 }
+
 
 body {
   background: transparent;
@@ -159,6 +160,12 @@ header .row>div:nth-child(1)>a{
 
 
 /* 검색폼 보더 */
+header #right-search-form>#right-search-btn{
+  color: #ff7473;
+  background:0 0;
+  border:none;
+  font-size:1.4em
+}
 
 header #right-search-form>input[type='text'] {
   border: 3px solid #ff7473;
@@ -170,14 +177,17 @@ header #right-search-form>input[type='text'] {
   background: #fc9d9a;
   color: #fff;
   padding: 0.45em 1.4em 0.45em 1em;
-  font-weight: bold;
+  font-weight:700;
+  border-radius:6px 6px 0 0
 }
 
-#main .menu-wrapper {
-    border-right: 0px solid #ebeae8;
-    border-bottom: 0px solid #ebeae8;
-    margin-bottom: 0.8em;
+#main .menu-wrapper{
+  border-right:0;
+  border-bottom:0;
+  border-radius:6px;
+  background:0 0
 }
+
 
 #main .menu-wrapper>a>em {
   color: #ff7473;
@@ -207,6 +217,9 @@ header #right-search-form>input[type='text'] {
 
 header #header-bar #header-top-notice strong.notice-badge {
   background: #fe4365;
+  padding:4px 8px;
+  color:#fff;
+  font-weight:700
 }
 
 
@@ -218,16 +231,16 @@ header #header-bar .fa {
 
 /* 상단 스트리머 정보창 */
 
-#board-info {	
-  background-color: #fc9d9a;	
-  width: 100%;	
-  height: 64px;	
-  overflow: hidden;	
-  line-height: 1;	
-  margin: 0 0 1em;	
-  padding: 1em;	
-}	
-	
+#board-info{
+  background-color: #fc9d9a;
+  display:flex;
+  border-right:0;
+  border-radius:6px;
+  overflow:inherit;
+  padding:0.5em 1em;
+  height:44px
+}
+
 #board-info h1 {	
   background-color: #fc9d9a;	
   font-size: 24px;	
@@ -314,27 +327,41 @@ header #header-bar .fa {
 	
 /* 게시글 관련부분 */
 
+#article-list{
+  margin:0;
+  padding:0 0 2em;
+  background:#fff;
+  border-radius:6px
+}
+
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span{
   color: #fe4365;
 }
 
 #article-list>.article-list-row>.item>.list-header>span{
-  background: #fc9d9a;
+  background-color: #fc9d9a;
+  color:#fff;
+  font-weight:7;
+  padding:1px 5px;
+  font-size:11px;
+  border-radius:100px
 }
 
 #article-list #article-list-category {
-  border-top: 2px solid #fe4365;
   background: #fc9d9a;
-  border-bottom: 2px solid #fe4365;
+  border-radius:6px 6px 0 0;
+  margin-top:10px
 }
 
 #article-list #article-list-category > a {
-  display: inline-block;
-  padding: 10px 12px;
+  display:inline-block;
+  padding:11px 16px;
   background: #fc9d9a;
-  text-decoration: none;
-  font-size: 12px;
-  font-weight: normal;
+  text-decoration:none;
+  font-size:12px;
+  font-weight:700;
+  color:#fff!important;
+  border-radius:6px 6px 0 0
 }
 
 #article-list #article-list-category > a:hover {
@@ -409,9 +436,48 @@ header #header-bar .fa {
 	background: #fec8c9;
 }
 
-#article-reply-area #reply-real-area .reply>.reply-header,
-#article-reply-area #reply-best-area .reply>.reply-header{
+#article-reply-area{
+  margin:0 auto;
+  background:#fff;
+  width:848.66px;
+  border-radius:6px 6px 0 0
+}
+#article-reply-area>.header{
+  width:848.66px;
+  background: #fddcdc;
+  margin:0 auto;
+  border-radius:6px 6px 0 0;
+  padding:1em
+}
+#article-reply-area>.header h5 {
+  color: #fe4365;
+}
+#lastc{
+  color:#fff
+}
+#article-reply-area #reply-best-area,
+#article-reply-area #reply-real-area{padding:0}
+#article-reply-area #reply-best-area .reply,
+#article-reply-area #reply-real-area .reply{border:0}
+#article-reply-area #reply-best-area .reply>.reply-header,
+#article-reply-area #reply-real-area .reply>.reply-header{
   background: #fec8c9;
+  width:auto;
+  padding:.5em 1em
+}
+#article-content-wrapper>.vote-area,
+#article-reply-area #reply-best-area .reply>.reply-content,
+#article-reply-area #reply-real-area .reply>.reply-content{
+  border:0;
+  background:#fff
+}
+#article-reply-area #reply-best-area .reply>.reply-content{
+  background:#fff4ea
+}
+#article-reply-area #reply-best-area .reply>.reply-content p,
+#article-reply-area #reply-real-area .reply>.reply-content p{
+  padding:0 1em
+}
 
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
   color: #fe4365;
@@ -423,10 +489,6 @@ header #header-bar .fa {
 
 #article-info>h2>span.category {
   color: #fe4365 !important;
-}
-
-#article-reply-area>.header h5 {
-  color: #fe4365;
 }
 
 a {
