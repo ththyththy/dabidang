@@ -16,8 +16,7 @@ body {
 /* 전체 쉐도우 */
 
 header #header-bar>.row,
-#main .menu-wrapper,
-#main #main-content>div.frame {
+#main .menu-wrapper {
   box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -497,6 +496,14 @@ a {
 
 span.a-badge i.fa.fa-info-circle {
   color: #fc9d9a;
+}
+
+#main #main-content>div.frame,
+#main .menu-wrapper{
+  border-right:0;
+  border-bottom:0;
+  border-radius:6px;
+  background:0 0
 }
 
 /* 꼬리말 */
