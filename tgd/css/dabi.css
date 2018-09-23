@@ -440,8 +440,8 @@ h3{
 }
 
 #article-content-wrapper>.header {
-	border-top: 2px solid #fe4365;
-	background: #fc9d9a;
+	border-top: 0px solid #fe4365;
+	background: #fec8c9;
 }
 #article-content-wrapper>.footer {
 	background: #fec8c9;
