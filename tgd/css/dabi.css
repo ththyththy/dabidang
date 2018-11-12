@@ -234,7 +234,7 @@ header #header-bar #header-top-notice strong.notice-badge{
   height: 0.15em;
 }
 
-pagination>li>a:hover{
+.pagination>li>a:hover{
   background-color: #ffd9da;
   animation: infinite mabataki 1.5s;
   color:#fff
