@@ -1,7 +1,11 @@
 /* 렛잇스노우 출처 https://designshack.net/tutorialexamples/letitsnow/index.html */
 
-body {
+html {
   background: transparent;
+  height: auto !important;
+}
+
+body {
   font-family: 'NanumSquareRound';
   font-size: 15px;
   background-color: #fddcdc; 
