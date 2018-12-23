@@ -6,11 +6,11 @@ html {
   height: auto !important;
 }
 
-body {
+/*body {
   background: transparent;
   font-family: 'NanumSquareRound';
   font-size: 15px
-}
+}*/
 
 header #header-bar>.row,
 #main .menu-wrapper {
