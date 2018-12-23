@@ -4,6 +4,7 @@ body {
   background: transparent;
   font-family: 'NanumSquareRound';
   font-size: 15px;
+  background-color: #fddcdc; 
   background-image: url('https://raw.githubusercontent.com/ththyththy/dabidang/master/snow/snow1.png'), 
   url('https://raw.githubusercontent.com/ththyththy/dabidang/master/snow/snow2.png'), 
   url('https://raw.githubusercontent.com/ththyththy/dabidang/master/snow/snow3.png');
