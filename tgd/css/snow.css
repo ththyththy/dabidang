@@ -1,7 +1,10 @@
 /* 렛잇스노우 출처 https://designshack.net/tutorialexamples/letitsnow/index.html */
 
 body {
- background-image: url('https://raw.githubusercontent.com/ththyththy/dabidang/master/snow/snow1.png'), 
+  background: transparent;
+  font-family: 'NanumSquareRound';
+  font-size: 15px;
+  background-image: url('https://raw.githubusercontent.com/ththyththy/dabidang/master/snow/snow1.png'), 
   url('https://raw.githubusercontent.com/ththyththy/dabidang/master/snow/snow2.png'), 
   url('https://raw.githubusercontent.com/ththyththy/dabidang/master/snow/snow3.png');
  
