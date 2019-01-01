@@ -1,16 +1,16 @@
 @import url("https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.css");
-@import url("https://ththyththy.github.io/dabidang/tgd/css/snow.css");
+/*@import url("https://ththyththy.github.io/dabidang/tgd/css/snow.css");*/
 
-/*html {
+html {
   background: #fddcdc;
   height: auto !important;
-}*/
+}
 
-/*body {
+body {
   background: transparent;
   font-family: 'NanumSquareRound';
   font-size: 15px
-}*/
+}
 
 header #header-bar>.row,
 #main .menu-wrapper {
